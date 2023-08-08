@@ -26,4 +26,15 @@ fun main(args: Array<String>) {
         x += 1
         println("x is now $x.")
     }
+
+    // Do something under a condition (branching)
+    if (x == 20) {
+        println("x must be 20.")
+    } else {
+        println("x isn't 20.")
+    }
+
+    if (name.equals("Cormorant")) {
+        println("$name Strike.")
+    }
 }
