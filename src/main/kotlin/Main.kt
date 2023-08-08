@@ -14,5 +14,16 @@ fun main(args: Array<String>) {
     // and is known as immutable variable in Kotlin
     val name = "Cormorant"
 
-    print("x is $x.")
+    println("x is $x.")
+
+    // Do something again and again (loops)
+    while (x > 20) {
+        x -= 1
+        println("x is now $x.")
+    }
+
+    for (i in 1..10) {
+        x += 1
+        println("x is now $x.")
+    }
 }
